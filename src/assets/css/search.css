@@ -1,0 +1,24 @@
+.search-wrapper{
+    background-color: #fff;
+    width: 70%;
+    padding: 4px 12px 4px 6px;
+    border: 1px solid #464646;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: fit-content;
+    box-shadow: 0 2px 4px #cbcbcb;
+    border-radius: 2px;
+}
+.search-wrapper input{
+    border: none;
+    height: 28px;
+    width: 90%;
+}
+.search-wrapper input:focus{
+outline: none;
+}
+
+.search-wrapper .search-icon{
+    font-size: 12px;
+}

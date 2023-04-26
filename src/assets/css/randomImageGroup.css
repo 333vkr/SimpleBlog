@@ -1,0 +1,9 @@
+.random-article-image-group{
+    position: absolute;
+    right: 0;
+    bottom:6%
+}
+.random-article-image-group img{
+    max-width: 200px;
+    margin: 0 4px 0 0;
+}

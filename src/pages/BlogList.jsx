@@ -1,7 +1,11 @@
 import React from 'react'
+import { Header } from '../layout/Header'
 
 export const BlogList = () => {
   return (
-    <div>BlogList</div>
+    <>
+      <Header/>
+      Blog List
+    </>
   )
 }

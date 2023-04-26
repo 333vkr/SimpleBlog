@@ -4,7 +4,7 @@ import { Route, Routes } from 'react-router';
 import { Home } from './pages/Home';
 import { BlogList } from './pages/BlogList';
 import { Blog } from './pages/Blog';
-
+import './assets/css/globals.css'
 function App() {
   return (
     <div className="App">

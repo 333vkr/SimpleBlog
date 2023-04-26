@@ -1,0 +1,25 @@
+.cta-btn{
+    min-width: 100px;
+    width: fit-content;
+    border: none;
+    color: #606D59;
+    background-color: transparent;
+    font-weight: 600;
+    font-size: 12px;
+    padding: none;
+    border-radius: 4px;
+    height: 32px;
+}
+.cta-btn span.cta-icon i::before{
+    font-weight: 600;
+    font-size: 20px;
+    color: #606D59;
+    position: relative;
+    top: 3px;
+}
+.cta-btn:hover{
+    border: 1px solid #606D59;
+    padding-bottom: 3px;
+    cursor: pointer;
+    
+}

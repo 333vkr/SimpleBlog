@@ -1,0 +1,40 @@
+.section1{
+    display: flex;
+    position: relative;
+}
+.section1 .section1-child{
+    flex: 50;
+}
+.section1 .section1-child img.left-cover{
+    width: 100%;
+}
+div.section1-right-texts{
+    margin: 18% auto 1% 8%;
+    width: 70%;
+}
+
+.heading-ruler-wrapper{
+    display: flex;
+    align-items: center;
+}
+.heading-ruler-wrapper p{
+    width: fit-content;
+    white-space: nowrap;
+    padding: 8px;
+    margin: 0 8px;
+    background-color: #bccbb1;
+    font-size: 11px;
+    color: #505050;
+    font-family: Overpass;
+}
+
+.section3-wrapper{
+    display: flex;
+    margin: 6% 0;
+}
+.section3-wrapper .section3-wrapper-left{
+    width: 70%;
+}
+.section3-wrapper .section3-wrapper-right{
+    width: 30%;
+}

@@ -1,0 +1,19 @@
+.nav-menu-container {
+  margin: 4px 6px;
+}
+.nav-menu-container a {
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: "Overpass", sans-serif;
+}
+/* //active class of nav link */
+.active {
+  color: brown;
+}
+.pending {
+  color: #000;
+}
+.non-active {
+  color: #000;
+}

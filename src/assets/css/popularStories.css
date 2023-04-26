@@ -1,0 +1,28 @@
+.popular-stories-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.popular-story-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 2% 5px;
+    cursor: pointer;
+}
+.popular-story-container:hover{
+    border-radius: 4px;
+    box-shadow: 0 6px 16px #7b7a7a;
+}
+.popular-story-container img{
+    max-width: 22vw;
+}
+
+.popular-story-container h2{
+    font-family: 'PT Serif', serif;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 2%;
+}

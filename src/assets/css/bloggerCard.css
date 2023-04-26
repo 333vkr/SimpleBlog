@@ -1,0 +1,37 @@
+.blogger-card-wrapper{
+    width: 69%;
+    background-color: #e3eedc;
+    margin: 20% 0;
+    padding: 8% 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.blogger-card-wrapper img{
+    border-radius: 50%;
+    width: 45%;
+}
+
+.blogger-card-wrapper p.name-p{
+    font-family: 'PT Serif', serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 12px auto 4px;
+    color: #18171C;
+    text-align: center;
+}
+.blogger-card-wrapper p.blogger-type{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: Overpass;
+    color: #707070;
+    margin: 2px;
+    text-align: center;
+}
+.blogger-card-wrapper p.description{
+    text-align: center;
+    font-family: Overpass;
+    font-weight: 200;
+    font-size: 14px;
+}

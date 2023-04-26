@@ -1,7 +1,10 @@
 import React from 'react'
-
-export const Logo = () => {
+import '../assets/css/logo.css'
+export const Logo = (props) => {
+  const {src,label,alt}=props
   return (
-    <div>Logo</div>
+    <div className='logo'>
+        <img src={src} alt={alt} />
+    </div>
   )
 }
