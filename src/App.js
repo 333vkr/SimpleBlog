@@ -5,7 +5,10 @@ import { Home } from './pages/Home';
 import { BlogList } from './pages/BlogList';
 import { Blog } from './pages/Blog';
 import './assets/css/globals.css'
+import { createContext } from 'react';
 function App() {
+
+  const articleContext=createContext(null)
   return (
     <div className="App">
     <Routes>

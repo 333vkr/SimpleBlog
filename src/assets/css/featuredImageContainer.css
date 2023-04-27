@@ -1,0 +1,29 @@
+.featured-image-wrapper{
+    width: 90%;
+    margin: 0 5%;
+    position: relative;
+}
+.featured-image-wrapper img.fetured-img{
+    width: 100%;
+}
+
+.featured-image-wrapper .blog-list-container{
+    background-color: #fff;
+    position: relative;
+    bottom: 100px;
+    width: 80%;
+    margin: 0 auto;
+    height: fit-content;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.blog-list-container p.blog-list-title{
+    font-family: Overpass;
+    font-weight: 600;
+    font-size: 18px;
+    letter-spacing: 6px;
+}

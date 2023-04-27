@@ -30,11 +30,15 @@ div.section1-right-texts{
 
 .section3-wrapper{
     display: flex;
-    margin: 6% 0;
+    margin: 6% 0 0;
 }
 .section3-wrapper .section3-wrapper-left{
     width: 70%;
 }
 .section3-wrapper .section3-wrapper-right{
     width: 30%;
+}
+
+.next-arrow{
+    font-size: 2px !important;
 }

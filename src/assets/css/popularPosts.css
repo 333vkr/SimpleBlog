@@ -1,0 +1,28 @@
+.popular-post-heading{
+    display: flex;
+    align-items: center;
+}
+.popular-post-heading p{
+    white-space: nowrap;
+    font-size: 12px;
+    font-weight: 600;
+    color: #18171C;
+    font-family: Overpass;
+    margin-right: 8px;
+}
+
+.single-popular-post{
+    display: flex;
+    margin: 8px 0;
+}
+
+.single-popular-post img{
+    width:90px;
+    margin-right: 4%;
+}
+
+.single-popular-post .texts p.heading{
+    margin: 0;
+    font-family: 'PT serif',serif;
+    font-size: 16px;
+}

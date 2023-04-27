@@ -1,0 +1,18 @@
+.single-blog-h-wrapper{
+    margin: 0 1% 10% 0;
+    width: 80%;
+}
+.single-blog-h-wrapper img{
+    width: 100%;
+}
+
+.single-blog-h-wrapper .texts-container{
+    margin: 3% 1% 0 6%;
+    width: 94%;
+}
+
+.single-blog-h-wrapper .texts-container h3{
+    margin: 12px auto;
+    font-family: 'PT Serif',serif;
+    font-weight: 500;
+}

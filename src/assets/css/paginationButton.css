@@ -1,0 +1,21 @@
+.pagination-btn{
+    width: 26px;
+    height: 26px;
+    border: none;
+    padding: 4px;
+    margin: 4px;
+    cursor: pointer;
+}
+.pagination-btn:hover{
+    box-shadow: 0 0 5px #c3c3c3;
+}
+
+.pagination-focus
+{
+    background-color: #A4BC96;
+    color: #fff;
+}
+.pagination-non-focus{
+    background-color: #E2E2E2;
+    color: #000;
+}

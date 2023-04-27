@@ -2,6 +2,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 .popular-story-container{
     display: flex;
@@ -10,13 +11,14 @@
     justify-content: center;
     margin: 2% 5px;
     cursor: pointer;
+    width: 30%;
 }
 .popular-story-container:hover{
     border-radius: 4px;
     box-shadow: 0 6px 16px #7b7a7a;
 }
 .popular-story-container img{
-    max-width: 22vw;
+    max-width: 100%;
 }
 
 .popular-story-container h2{
