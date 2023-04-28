@@ -4,3 +4,14 @@ font-size: 32px;
 margin: 4px 0;
 font-weight: 500;
 }
+
+.inner-article-img-group{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inner-article-img-group img{
+    width: 46%;
+    margin-right: 3%;
+}

@@ -1,0 +1,30 @@
+.previous-next-wrapper{
+    width: 45%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.previous-next-wrapper button{
+    width: fit-content;
+    border: none;
+    background-color: transparent;
+    font-family: 'Overpass';
+    font-size: 10px;
+    font-weight: 600;
+    margin: 4px 0;
+    cursor: pointer;
+}
+.previous-next-wrapper p{
+    font-family: 'PT serif',serif;
+    font-size: 16px;
+    margin: 4px 0px 4px 4px;
+}
+
+.previous{
+    
+    align-self: flex-start;
+}
+.next{
+   
+   align-self: flex-end;
+}

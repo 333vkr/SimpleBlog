@@ -29,7 +29,10 @@ hr{
     border-top: 2px solid #EEEDE9;
     width: 100%;
 }
-
+h3.sub-heading{
+    font-family: 'PT serif', serif;
+    font-size: 26px !important;
+}
 
 /* bootstrap icon styling */
 .bi{

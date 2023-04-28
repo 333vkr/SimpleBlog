@@ -1,0 +1,38 @@
+.blogger-card-horizontal-parent{
+    width: 100%;
+    background-color: #deefd4;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1% 0;
+}
+.blogger-card-horizontal-parent img{
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.blogger-card-horizontal-parent .text-group{
+    margin-left: 4px;
+}
+.text-group p.name{
+    font-family: 'PT serif',serif;
+    font-size: 20px;
+    margin: 4px;
+}
+
+.text-group p.title{
+    font-family: 'Overpass';
+    font-weight: 600;
+    font-size: 12px;
+    margin: 4px;
+}
+
+.text-group p.desc{
+    font-family: 'Overpass';
+    font-size: 12px;
+    font-weight: 400;
+    color: #434343;
+}

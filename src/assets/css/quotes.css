@@ -1,0 +1,25 @@
+.quotes-wrapper{
+    display: flex;
+    align-items: center;
+}
+.quotes-wrapper i{
+    font-size: 90px;
+    color: #A4BC96;
+}
+
+.quotes-wrapper .quote-group{
+    display: flex;
+    flex-direction: column;
+}
+.quote-group p.quote{
+    font-family: 'Lora', serif;
+    font-style: italic;
+    font-size: 16px;
+    margin: 0 0 4px;
+}
+.quote-group p.name{
+    font-family: Overpass;
+    font-weight: 600;
+    font-size: 10px;
+    margin: 4px 0;
+}
